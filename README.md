@@ -24,6 +24,9 @@ In this project, our goal is to create a virtual caregiver system that extracts 
 
 # Parameters to play with:
 - number of contexts :
+- batch size: changed it from 4 to 2
+- tokenizer.max_len_single_sentence(the maximum number of tokens a single sentence can have (i.e. without special tokens)): changed from 1024 to 512
+- tokenizer.model_max_length( the maximum number of tokens a model can handle (i.e. including special tokens)): changed from 1024 to 512
 # Challenges
-
+-RuntimeError: CUDA out of memory
 # Outcomes
